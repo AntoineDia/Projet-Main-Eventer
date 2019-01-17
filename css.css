@@ -1,0 +1,116 @@
+@font-face {
+  font-family: "Comfortaa-Regular";
+  src: url("fonts/Comfortaa-Regular.ttf");
+}
+@font-face {
+  font-family: "Cinzel-Regular";
+  src: url("fonts/Cinzel-Regular.ttf");
+}
+@font-face {
+  font-family: "open-sans";
+  src: url("fonts/open-sans/OpenSans-Regular.ttf");
+}
+html, body{
+max-width: 900px;
+margin: 20px auto;
+padding: 0;
+color: #404040;
+font-size: 100%;
+font-family: 'open-sans';
+}
+body {
+ background-color: #ffffff; 
+}
+
+h1, h2, h3{
+font-family: 'Comfortaa-Regular';
+}
+h1 {
+ font-size: 36px; 
+ }
+h2 {
+ font-size: 150%; 
+ }
+h3 {
+ font-size: 100%; 
+ }
+p,ul,li,td {
+ color: #404040;
+ font-size: 15px;
+ line-height:125%;
+ }
+
+
+
+
+.container-events, .container-contact{
+	height: auto;
+	width: 100%;
+	float: left;
+	padding: 10px;
+	margin: 10px 0;
+}
+.container-contact{
+	border: 1px solid #c72121;
+}
+.container-events-top, .container-events-bottom{
+	height: auto;
+	width: 100%;	
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+}
+.container-events-bottom{
+	height: auto;
+	margin: 0 auto;
+	display: flex;
+	padding: 0;
+	justify-content:space-between;
+}
+.left-events, .central-events, .right-events{
+	height: auto;
+	width: 35%;
+	text-align: center;
+}
+.item{
+	height: 300px;
+	width: 25%;
+	text-align: center;
+	box-shadow: 2px 2px 8px #aaa;
+	margin: 0 10px;
+}
+.titre-labal{
+	background-color: #b20000;
+	width: auto;
+	padding: 5px 10px;
+	color: #ffffff;
+	border: 1px solid #b20000;
+}
+.central-events, h1{
+	margin: 0 auto;
+}
+.under-line{
+	height: 5px;
+	width: 56%;
+	background-color: #b20000	;
+	border-radius: 3px;
+	margin: 0 auto;
+}
+.month, .day, .dance-name, .description {
+	width: auto;
+	color: #68a9f8;
+	text-align: center;
+	padding: 5px 0;
+}
+.day{
+	color: #616161;
+}
+.dance-name{
+	color: #909090;
+}
+.description{
+	color: #bababa;
+}
+.central-inside{
+	padding: 15px;
+}
