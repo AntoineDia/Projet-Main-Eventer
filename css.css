@@ -6,6 +6,10 @@
   font-family: "cinzel";
   src: url("fonts/cinzel.ttf");
 }
+@font-face {
+  font-family: "opensans";
+  src: url("fonts/opensans.ttf");
+}
 body {
   font-family: "cinzel";
 }
