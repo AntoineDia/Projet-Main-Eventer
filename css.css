@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "comfortaa";
+  src: url("fonts/comfortaa.ttf");
+}
+@font-face {
+  font-family: "cinzel";
+  src: url("fonts/cinzel.ttf");
+}
+body {
+  font-family: "cinzel";
+}
+h1, h2, h3{
+  font-family: "comfortaa";
+}
+h1 {
+  font-size: 45px;
+}
