@@ -26,7 +26,7 @@ h1, h2, h3{
 font-family: 'Comfortaa-Regular';
 }
 h1 {
- font-size: 36px; 
+ font-size: 40px; 
  }
 h2 {
  font-size: 150%; 
@@ -54,9 +54,6 @@ p,ul,li,td {
 	float: left;
 	padding: 10px;
 	margin: 70px 0;
-}
-.container-contact{
-	border: 1px solid #c72121;
 }
 .container-events-top, .container-events-bottom{
 	height: auto;
@@ -102,7 +99,7 @@ p,ul,li,td {
 }
 .under-line-OE, .under-line-NE{
 	height: 5px;
-	width: 56%;
+	width: 85%;
 	background-color: #b20000;
 	border-radius: 3px;
 	margin: 0 auto;
@@ -110,7 +107,6 @@ p,ul,li,td {
 .under-line-NE{
 	width: 85%;
 	margin-left: 10px;
-
 	position:absolute;
 }
 .month, .day, .dance-name, .description {
@@ -137,34 +133,84 @@ p,ul,li,td {
 	position: relative;
 }
 .row{
+	height: auto;
 	width: 100%;
-	padding: 50px 0;
-	margin: 50px 0;
-	float: left;
-	background-color: #4f3a3a;
+	padding: 0;
+	margin: 40px auto 0 auto;
+	display: flex;
+	justify-content: center;
 }
 form{
-	height: 200px;
+	width: 68%;
+	margin: 10% auto;
 }
-.row form{
-	width: 80%;
-	margin: 50px auto;
-	
-	background-color: #7a2727;
-}
-
-
 label{
 	height: auto;
+	float: left;
+	padding-bottom: 5px;
+	color: #575757
+	
+}
+textarea{
+	height: 100%;
+	width: 100%;
+	float: left;
+	border-radius: 8px;
+	border:1px solid #b20000;
+	resize: none;
+	margin-bottom: 25px
 }
 .form-input{
-	width: auto;
+	width: 100%;
 }
 .form-group{
-	width: auto;
+	width: 43%;
 	float: left;
+	padding: 0 20px;
+}
+.form-textarea{
+	width: 70%;
+	padding: 0 20px;
 }
 .col{
-	width: 300px;
-	display: block;
+	width: 100%;
+	padding: 10px 0;
+	float: left
+}box-titre{
+	width: 100%;
+	margin-bottom: 50px;
+	float: left;
+	padding: 0;
+}
+input{
+	height: 25px;
+	width: 100%;
+	border-radius: 8px;
+	border:1px solid #b20000;
+}
+.align-right{
+	float: right;
+}
+.btn {
+    display: flex;
+    font-size: 15px;
+    font-weight: 200;
+    height: 50px;
+    line-height: 0.8;
+    padding: 18px 30px;
+    text-transform: capitalize;
+    border-radius: 1px;
+    letter-spacing: 0.5px;
+	cursor:pointer;
+	border-radius:10px;
+	margin: 0 auto;
+}
+.btn-rouge{
+    background: #b20000;
+    color: #ffffff ;
+    border: 1px solid #b20000;
+ }
+.btn-rouge:hover {
+    background: #ffffff;
+    color: #b20000;
 }
