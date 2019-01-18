@@ -55,7 +55,7 @@ nav > ul {
   display: flex;
   justify-content: flex-end;
   list-style-type: none;
-  padding-right: 180px;
+  padding-right: 10%;
   padding-top: 10px;
   overflow: hidden;
 }
