@@ -1,9 +1,4 @@
 /*Partie de Ted*/
-body {
-    width: 880px;
-    max-width: 100%;
-    margin: auto;
-}
 
 #about {
     position: relative;
@@ -78,29 +73,27 @@ body {
     margin: 70px 0 0 0;
 }
 
-#Teddy-h2-2 {
-    text-align: center;
-    margin-top: 15%;
-}
-
-#Teddy-div-4 {
-    height: 7px;
-	width: 10%;
-	background-color: #b20000;
-    margin: -15px 0 0 390px;
-    position: absolute;
-	border-radius: 3px;
-}
-
 .Teddy-table-1 p {
     margin-top: 0px;
 }
+
 .Teddy-table-1 img {
     margin-top: 50px;
     margin-bottom: 50px;
 }
 
+    #Teddy-h2-2 {
+        text-align: center;
+        margin-top: 15%;
+    }
 
-
+    #Teddy-div-4 {
+        height: 7px;
+        width: 10%;
+        background-color: #b20000;
+        margin: -15px 0 0 390px;
+        position: absolute;
+        border-radius: 3px;
+    }
 
 /*Partie de Ted*/
