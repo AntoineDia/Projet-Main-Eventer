@@ -4,9 +4,6 @@ body {
     max-width: 100%;
     margin: auto;
 }
-figure {
-    background-color: red;
-}
 
 #about {
     position: relative;
@@ -20,40 +17,90 @@ figure {
     margin: auto;
 }
 
-#Teddy-figure-1 {
-    float: left;
-    position: relative;
-}
+    #Teddy-figure-1 {
+        float: left;
+        position: relative;
+    }
 
-.Teddy-figcaption {
-    position: absolute;
-    top: 20px;
-    left: -50px;
-    background-color: #b20000;
-    color: white;
-    border: 2px solid white;
-}
+    #Teddy-figcaption {
+        position: absolute;
+        top: 20px;
+        left: -50px;
+        background-color: #b20000;
+        color: white;
+        border: 2px solid white;
+        padding: 0 6px 0 6px;
+    }
 
-#Teddy-img-1 {
-    width: 100%;
-    height: auto;
-}
+    #Teddy-img-1 {
+        width: 100%;
+        height: auto;
+    }
 
 #Teddy-h2-1 {
-    top: 120px;
+    top: 85px;
     display: inline;
     position: relative;
-    border-bottom: 2px solid#b20000;
 }
 
-#Teddy-p-1 {
-    padding-top: 200px;
+#Teddy-div-2 {
+    height: 7px;
+	width: 14%;
+	background-color: #b20000;
+    margin: 100px 0 0 440px;
+    position: absolute;
+}
+
+    #Teddy-p-1 {
+        padding-top: 200px;
+        color: grey;
+    }
+
+    #Teddy-p-2 {
+        clear: both;
+        color: grey;
+    }
+
+.Teddy-table-1 img {
+    float: left;
+}
+
+.Teddy-table-1 td {
     color: grey;
 }
 
-#Teddy-p-2 {
-    clear: both;
-    color: grey;
+.Teddy-table-1 h3 {
+    display: inline-block;
+    background-color: #b20000;
+    padding: 2px 10px 2px 10px;
+    color: white;
+    border: 2px solid white;
+    margin: 70px 0 0 0;
 }
+
+#Teddy-h2-2 {
+    text-align: center;
+    margin-top: 15%;
+}
+
+#Teddy-div-4 {
+    height: 7px;
+	width: 10%;
+	background-color: #b20000;
+    margin: -15px 0 0 390px;
+    position: absolute;
+	border-radius: 3px;
+}
+
+.Teddy-table-1 p {
+    margin-top: 0px;
+}
+.Teddy-table-1 img {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+
 
 /*Partie de Ted*/
