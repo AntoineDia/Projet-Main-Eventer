@@ -15,4 +15,6 @@ Membres de l'équipe
 - Guy : Partie "Events" et "Contact"
 - Antoine : Partie "Header" et "Footer"
 
-Statut : En cours
+Statut : Finalisation
+
+<img src="https://image.noelshack.com/fichiers/2019/04/2/1548112806-sans-titre.png">
