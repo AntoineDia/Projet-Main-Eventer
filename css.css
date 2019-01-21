@@ -13,16 +13,23 @@
 
 /*Partie Antoine*/
 header{
-  animation-name: bonjour;
-  animation-duration: 1.5s;
   display: grid;
   position: relative;
   margin-top: -16px;
   font-family: "opensans";
   text-align: center;
+  height: 500px;
+}
+#logo{
+  animation-name: bonjour;
+  animation-duration: 1.5s;
+  padding-top: 80px;
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
 }
 @keyframes bonjour{
-  0% {opacity: 0; margin-top: 50px; background-color:white;}
+  0% {opacity: 0; margin-top: 50px;}
 }
 header::before{
   content: "";
@@ -35,21 +42,19 @@ header::before{
   background-size: cover;
   filter: brightness(20%);
 }
-
-header > img {
-  padding: 80px 0 125px 0;
-  z-index: 1;
-  margin: auto;
+nav {
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
-
 nav > ul {
   position: relative;
   display: flex;
   justify-content: flex-end;
   list-style-type: none;
-  padding-right: 180px;
+  padding-right: 10%;
   padding-top: 10px;
   overflow: hidden;
+  padding-bottom: 0;
 }
 
 nav > ul > li {
