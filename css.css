@@ -1,3 +1,4 @@
+
 @font-face {
   font-family: "comfortaa";
   src: url("fonts/comfortaa.ttf");
@@ -90,3 +91,112 @@ footer {
   width: 50px;
 }
 /*Fin partie Antoine*/
+
+/*Partie de Ted*/
+
+#about {
+    position: relative;
+    max-width: 960px;
+    margin: auto;
+    padding-top: 130px;
+}
+
+#team {
+    position: relative;
+    max-width: 960px;
+    margin: auto;
+}
+
+    #Teddy-figure-1 {
+        float: left;
+        position: relative;
+    }
+
+    #Teddy-figcaption {
+        position: absolute;
+        top: 20px;
+        left: -95px;
+        background-color: #b20000;
+        color: white;
+        border: 4px solid white;
+        padding: 2px 6px 2px 6px;
+        font-weight: bold;
+    }
+
+    #Teddy-img-1 {
+        width: 100%;
+        height: auto;
+    }
+
+#Teddy-h2-1 {
+    top: 85px;
+    display: inline;
+    position: relative;
+    font-size: 300%;
+    font-weight: lighter;
+}
+
+#Teddy-div-2 {
+    height: 7px;
+	width: 30%;
+	background-color: #b20000;
+    margin: 100px 0 0 440px;
+    position: absolute;
+}
+
+    #Teddy-p-1 {
+        padding-top: 200px;
+        color: #B7B7B7;
+        font-weight: bold;
+    }
+
+    #Teddy-p-2 {
+        clear: both;
+        color: #B7B7B7;
+        font-weight: bold;
+    }
+
+.Teddy-table-1 img {
+    float: left;
+}
+
+.Teddy-table-1 td {
+    color: #B7B7B7;
+}
+
+.Teddy-table-1 h3 {
+    display: inline-block;
+    background-color: #b20000;
+    padding: 4px 10px 2px 10px;
+    color: white;
+    border: 2px solid white;
+    margin: 70px 0 0 0;
+    font-size: 80%;
+}
+
+.Teddy-table-1 p {
+    margin-top: 10px;
+}
+
+.Teddy-table-1 img {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+    #Teddy-h2-2 {
+        text-align: center;
+        margin-top: 15%;
+        font-size: 300%;
+        font-weight: lighter;
+    }
+
+    #Teddy-div-4 {
+        height: 4px;
+        width: 24%;
+        background-color: #b20000;
+        margin: -40px 0 0 360px;
+        position: absolute;
+        border-radius: 3px;
+    }
+
+/*Partie de Ted*/
