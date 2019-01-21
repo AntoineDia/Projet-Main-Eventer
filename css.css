@@ -1,4 +1,97 @@
 
+@font-face {
+  font-family: "comfortaa";
+  src: url("fonts/comfortaa.ttf");
+}
+@font-face {
+  font-family: "cinzel";
+  src: url("fonts/cinzel.ttf");
+}
+@font-face {
+  font-family: "opensans";
+  src: url("fonts/opensans.ttf");
+}
+body {
+  font-family: "opensans";
+}
+
+/*Partie Antoine*/
+header{
+  display: grid;
+  position: relative;
+  margin-top: -16px;
+  font-family: "opensans";
+  text-align: center;
+  height: 500px;
+}
+#logo{
+  animation-name: bonjour;
+  animation-duration: 1.5s;
+  padding-top: 80px;
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+}
+@keyframes bonjour{
+  0% {opacity: 0; margin-top: 50px;}
+}
+header::before{
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url("img/header_Background.jpg");
+  background-size: cover;
+  filter: brightness(20%);
+}
+nav {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+nav > ul {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  padding-right: 10%;
+  padding-top: 10px;
+  overflow: hidden;
+  padding-bottom: 0;
+}
+
+nav > ul > li {
+  font-size: 120%;
+  color: white;
+  padding: 8px 16px 8px 16px;
+}
+header > nav > ul > li > a{
+  color: white;
+  text-decoration: none;
+}
+#maineventers{
+  text-align: center;
+  font-size: 40px;
+  font-family: arial;
+}
+footer {
+  background-image: url("img/swirl_pattern.png");
+  padding: 50px 0 50px 0;
+}
+.socialmedia{
+  width: 450px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+.socialmedia img {
+  width: 50px;
+}
+/*Fin partie Antoine*/
+
 /*Partie de Ted*/
 
 #about {
