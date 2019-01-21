@@ -10,16 +10,6 @@
   font-family: "opensans";
   src: url("fonts/opensans.ttf");
 }
-body {
-  font-family: "cinzel";
-}
-h1, h2, h3{
-  font-family: "comfortaa";
-}
-h1 {
-  font-size: 45px;
-}
-
 header{
   animation-name: bonjour;
   animation-duration: 1.5s;
@@ -69,11 +59,13 @@ header > nav > ul > li > a{
   color: white;
   text-decoration: none;
 }
+#maineventers{
+  text-align: center;
+  font-size: 40px;
+  font-family: arial;
+}
 footer {
   background-image: url("img/swirl_pattern.png");
-  text-align: center;
-  font-size: 35px;
-  font-family: arial;
   padding: 50px 0 50px 0;
 }
 .socialmedia{
@@ -82,6 +74,7 @@ footer {
   display: flex;
   justify-content: space-around;
   padding-top: 40px;
+  padding-bottom: 20px;
 }
 .socialmedia img {
   width: 50px;
