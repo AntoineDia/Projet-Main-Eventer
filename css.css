@@ -10,6 +10,8 @@
   font-family: "opensans";
   src: url("fonts/opensans.ttf");
 }
+
+/*Partie Antoine*/
 header{
   animation-name: bonjour;
   animation-duration: 1.5s;
@@ -79,3 +81,4 @@ footer {
 .socialmedia img {
   width: 50px;
 }
+/*Fin partie Antoine*/
