@@ -1,6 +1,6 @@
 # Projet Main Eventer
 
-## Notre équipe travail sur l'intégration d'une maquette en HTML/CSS
+## Notre équipe travaille sur l'intégration d'une maquette en HTML/CSS
 
 Maquette : https://bit.ly/2HjvqQU
 
