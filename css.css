@@ -14,6 +14,9 @@
 body {
   font-family: "opensans";
 }
+h1, h2, h3{
+font-family: 'Comfortaa';
+}
 
 /*Partie Antoine*/
 header{
@@ -23,6 +26,12 @@ header{
   font-family: "opensans";
   text-align: center;
   height: 500px;
+}
+.container{
+	height: 100%;
+	width: 1000px;
+	padding: 0 10px;
+	margin: 0 auto;
 }
 #logo{
   animation-name: bonjour;
@@ -76,8 +85,9 @@ header > nav > ul > li > a{
   font-family: arial;
 }
 footer {
-  background-image: url("img/swirl_pattern.png");
-  padding: 50px 0 50px 0;
+	width: 100%;
+	background-image: url("img/swirl_pattern.png");
+	padding: 50px 0 50px 0;
 }
 .socialmedia{
   width: 450px;
@@ -200,25 +210,6 @@ footer {
     }
 
 /*Partie de Ted*/
-h1, h2, h3{
-font-family: 'Comfortaa-Regular';
-}
-h1 {
- font-size: 40px; 
- }
-h2 {
- font-size: 150%; 
- }
-h3 {
- font-size: 100%; 
- }
-p,ul,li,td {
- color: #404040;
- font-size: 15px;
- line-height:125%;
- }
-
-
 
 .left-events img{
 	width: 90%;
@@ -229,7 +220,6 @@ p,ul,li,td {
 .container-events, .container-contact{
 	height: auto;
 	width: 100%;
-	float: left;
 	padding: 10px;
 	margin: 70px 0;
 }
