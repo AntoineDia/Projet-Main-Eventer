@@ -10,6 +10,9 @@
   font-family: "opensans";
   src: url("fonts/opensans.ttf");
 }
+body {
+  font-family: "opensans";
+}
 
 /*Partie Antoine*/
 header{
