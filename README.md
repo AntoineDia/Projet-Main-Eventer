@@ -12,7 +12,7 @@ Lien de la maquette intégrée : https://bit.ly/2MkOInV
 
 Membres de l'équipe
 
-- [**Teddy**](https://github.com/Elleonors){:target="_blank"} : Partie "About" et "Team" || Customer relationship
+- [**Teddy**](https://github.com/Elleonors): Partie "About" et "Team" || Customer relationship
 - [**Guy Djendo**](https://github.com/Ho-Be-One): Partie "Events" et "Contact"
 - [**Antoine**](https://github.com/AntoineDia) : Partie "Header" et "Footer"
 
