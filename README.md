@@ -19,4 +19,8 @@ Membres de l'équipe
 Statut : Finalisations finales
 
 
-<img src="https://image.noelshack.com/fichiers/2019/04/2/1548112806-sans-titre.png">
+<img src="https://image.noelshack.com/fichiers/2019/04/2/1548112806-sans-titre.png">  
+
+<img src="img/Lighthouse.png">
+
+*le score d'accessibilité étant du à la sélection de couleur du client*
