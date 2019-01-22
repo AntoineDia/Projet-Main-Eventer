@@ -6,7 +6,7 @@ Maquette : https://bit.ly/2HjvqQU
 
 Repo des assets et consiges : https://bit.ly/2T1NtfN
 
-Lien du projet : https://bit.ly/2MkOInV
+Lien de la maquette intégrée : https://bit.ly/2MkOInV
 
 Membres de l'équipe
 
