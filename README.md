@@ -16,7 +16,7 @@ Membres de l'équipe
 - [**Guy Djendo**](https://github.com/Ho-Be-One): Partie "Events" et "Contact"
 - [**Antoine**](https://github.com/AntoineDia) : Partie "Header" et "Footer"
 
-Statut : Finalisations finales
+Statut : Fini
 
 
 <img src="https://image.noelshack.com/fichiers/2019/04/2/1548112806-sans-titre.png">  
