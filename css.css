@@ -19,197 +19,200 @@ font-family: 'Comfortaa';
 }
 
 /*Partie Antoine*/
-header{
-  display: grid;
-  position: relative;
-  margin-top: -16px;
-  font-family: "opensans";
-  text-align: center;
-  height: 500px;
-}
-.container{
-	height: 100%;
-	width: 1000px;
-	padding: 0 10px;
-	margin: 0 auto;
-}
-#logo{
-  animation-name: bonjour;
-  animation-duration: 1.5s;
-  padding-top: 80px;
-  z-index: 1;
-  margin-left: auto;
-  margin-right: auto;
-}
-@keyframes bonjour{
-  0% {opacity: 0; margin-top: 50px;}
-}
-header::before{
-  content: "";
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  background-image: url("img/header_Background.jpg");
-  background-size: cover;
-  filter: brightness(20%);
-}
-nav {
-  padding-bottom: 0;
-  margin-bottom: 0;
-}
-nav > ul {
-  position: relative;
-  display: flex;
-  justify-content: flex-end;
-  list-style-type: none;
-  padding-right: 10%;
-  padding-top: 10px;
-  overflow: hidden;
-  padding-bottom: 0;
-}
 
-nav > ul > li {
-  font-size: 120%;
-  color: white;
-  padding: 8px 16px 8px 16px;
-}
-header > nav > ul > li > a{
-  color: white;
-  text-decoration: none;
-}
-#maineventers{
-  text-align: center;
-  font-size: 40px;
-  font-family: arial;
-}
-footer {
-	width: 100%;
-	background-image: url("img/swirl_pattern.png");
-	padding: 50px 0 50px 0;
-}
-.socialmedia{
-  width: 450px;
-  margin: auto;
-  display: flex;
-  justify-content: space-around;
-  padding-top: 40px;
-  padding-bottom: 20px;
-}
-.socialmedia img {
-  width: 50px;
-}
+    header{
+    display: grid;
+    position: relative;
+    margin-top: -16px;
+    font-family: "opensans";
+    text-align: center;
+    height: 500px;
+    }
+    .container{
+        height: 100%;
+        width: 1000px;
+        max-width: 100%;
+        padding: 0 10px;
+        margin: 0 auto;
+    }
+    #logo{
+    animation-name: bonjour;
+    animation-duration: 1.5s;
+    padding-top: 80px;
+    z-index: 1;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    @keyframes bonjour{
+    0% {opacity: 0; margin-top: 50px;}
+    }
+    header::before{
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url("img/header_Background.jpg");
+    background-size: cover;
+    filter: brightness(20%);
+    }
+    nav {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    }
+    nav > ul {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    padding-right: 10%;
+    padding-top: 10px;
+    overflow: hidden;
+    padding-bottom: 0;
+    }
+
+    nav > ul > li {
+    font-size: 120%;
+    color: white;
+    padding: 8px 16px 8px 16px;
+    }
+    header > nav > ul > li > a{
+    color: white;
+    text-decoration: none;
+    }
+    #maineventers{
+    text-align: center;
+    font-size: 40px;
+    font-family: arial;
+    }
+    footer {
+        width: 100%;
+        background-image: url("img/swirl_pattern.png");
+        padding: 50px 0 50px 0;
+    }
+    .socialmedia{
+    width: 450px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    }
+    .socialmedia img {
+    width: 50px;
+    }
+
 /*Fin partie Antoine*/
 
-/*Partie de Ted*/
+    /*Partie de Ted*/
 
-#about {
-    position: relative;
-    max-width: 960px;
-    margin: auto;
-    padding-top: 130px;
-}
-
-#team {
-    position: relative;
-    max-width: 960px;
-    margin: auto;
-}
-
-    #Teddy-figure-1 {
-        float: left;
+    #about {
         position: relative;
+        max-width: 960px;
+        margin: auto;
+        padding-top: 130px;
     }
 
-    #Teddy-figcaption {
-        position: absolute;
-        top: 20px;
-        left: -95px;
-        background-color: #b20000;
-        color: white;
-        border: 4px solid white;
-        padding: 2px 6px 2px 6px;
-        font-weight: bold;
+    #team {
+        position: relative;
+        max-width: 960px;
+        margin: auto;
     }
 
-    #Teddy-img-1 {
-        width: 100%;
-        height: auto;
-    }
+        #Teddy-figure-1 {
+            float: left;
+            position: relative;
+        }
 
-#Teddy-h2-1 {
-    top: 85px;
-    display: inline;
-    position: relative;
-    font-size: 300%;
-    font-weight: lighter;
-}
+        #Teddy-figcaption {
+            position: absolute;
+            top: 20px;
+            left: -95px;
+            background-color: #b20000;
+            color: white;
+            border: 4px solid white;
+            padding: 2px 6px 2px 6px;
+            font-weight: bold;
+        }
 
-#Teddy-div-2 {
-    height: 7px;
-	width: 30%;
-	background-color: #b20000;
-    margin: 100px 0 0 440px;
-    position: absolute;
-}
+        #Teddy-img-1 {
+            width: 100%;
+            height: auto;
+        }
 
-    #Teddy-p-1 {
-        padding-top: 200px;
-        color: #B7B7B7;
-        font-weight: bold;
-    }
-
-    #Teddy-p-2 {
-        clear: both;
-        color: #B7B7B7;
-        font-weight: bold;
-    }
-
-.Teddy-table-1 img {
-    float: left;
-}
-
-.Teddy-table-1 td {
-    color: #B7B7B7;
-}
-
-.Teddy-table-1 h3 {
-    display: inline-block;
-    background-color: #b20000;
-    padding: 4px 10px 2px 10px;
-    color: white;
-    border: 2px solid white;
-    margin: 70px 0 0 0;
-    font-size: 80%;
-}
-
-.Teddy-table-1 p {
-    margin-top: 10px;
-}
-
-.Teddy-table-1 img {
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-    #Teddy-h2-2 {
-        text-align: center;
-        margin-top: 15%;
+    #Teddy-h2-1 {
+        top: 85px;
+        display: inline;
+        position: relative;
         font-size: 300%;
         font-weight: lighter;
     }
 
-    #Teddy-div-4 {
-        height: 4px;
-        width: 24%;
+    #Teddy-div-2 {
+        height: 7px;
+        width: 30%;
         background-color: #b20000;
-        margin: -40px 0 0 360px;
+        margin: 100px 0 0 440px;
         position: absolute;
-        border-radius: 3px;
     }
 
-/*Partie de Ted*/
+        #Teddy-p-1 {
+            padding-top: 200px;
+            color: #B7B7B7;
+            font-weight: bold;
+        }
+
+        #Teddy-p-2 {
+            clear: both;
+            color: #B7B7B7;
+            font-weight: bold;
+        }
+
+    .Teddy-table-1 img {
+        float: left;
+    }
+
+    .Teddy-table-1 td {
+        color: #B7B7B7;
+    }
+
+    .Teddy-table-1 h3 {
+        display: inline-block;
+        background-color: #b20000;
+        padding: 4px 10px 2px 10px;
+        color: white;
+        border: 2px solid white;
+        margin: 70px 0 0 0;
+        font-size: 80%;
+    }
+
+    .Teddy-table-1 p {
+        margin-top: 10px;
+    }
+
+    .Teddy-table-1 img {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+        #Teddy-h2-2 {
+            text-align: center;
+            margin-top: 15%;
+            font-size: 300%;
+            font-weight: lighter;
+        }
+
+        #Teddy-div-4 {
+            height: 4px;
+            width: 24%;
+            background-color: #b20000;
+            margin: -40px 0 0 360px;
+            position: absolute;
+            border-radius: 3px;
+        }
+
+    /*Partie de Ted*/
 
 .left-events img{
 	width: 90%;
@@ -344,7 +347,8 @@ textarea{
 	width: 100%;
 	padding: 10px 0;
 	float: left
-}box-titre{
+}
+.box-titre{
 	width: 100%;
 	margin-bottom: 50px;
 	float: left;
