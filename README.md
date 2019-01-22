@@ -4,9 +4,9 @@
 
 (ouvrir les liens dans un nouvel onglet, [target="_blank"] ne fontionant pas sur GitHub)
 
-Maquette : https://bit.ly/2HjvqQU
+Maquette : https://bit.ly/2W7jRj4
 
-Repo des assets et consiges : https://bit.ly/2T1NtfN
+Repo des consiges et assets : https://bit.ly/2FVrBPk
 
 Lien de la maquette intégrée : https://bit.ly/2MkOInV
 
