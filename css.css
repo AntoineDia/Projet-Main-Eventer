@@ -38,10 +38,10 @@ font-family: 'Comfortaa';
     #logo{
     animation-name: bonjour;
     animation-duration: 1.5s;
-    padding-top: 80px;
     z-index: 1;
     margin-left: auto;
     margin-right: auto;
+    margin-top: -80px;
     }
     @keyframes bonjour{
     0% {opacity: 0; margin-top: 50px;}
@@ -318,7 +318,7 @@ label{
 	float: left;
 	padding-bottom: 5px;
 	color: #575757
-	
+
 }
 textarea{
 	height: 100%;
