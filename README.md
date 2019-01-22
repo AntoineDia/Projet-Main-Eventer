@@ -10,8 +10,7 @@ Lien de la maquette intégrée : https://bit.ly/2MkOInV
 
 Membres de l'équipe
 
-- Andréa : Community Manager
-- Teddy : Partie "About" et "Team"
+- Teddy : Partie "About" et "Team" || Customer relationship
 - Guy : Partie "Events" et "Contact"
 - Antoine : Partie "Header" et "Footer"
 
